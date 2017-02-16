@@ -1,0 +1,143 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px solid #002db3;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 50px;
+    padding: 20px;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.col-1 {
+    text-align: left;
+    width: 8.33;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 90%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    border: 2px solid #002db3;
+    height: 300px;
+    margin: 2%;
+    padding: 2%;
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%
+}
+
+h1 {
+    color: #002db3;
+    line-height: 20%;
+    text-align: right;
+}
+
+h2 {
+    color: black;
+    text-align: right;
+}
+
+.email {
+    color: black;
+    line-height: 5px;
+    text-align: right;
+}
+
+.email:active {
+    font-weight: bold;
+}
+
+.quote {
+    color: black;
+    text-align: right;
+}
+
+aside {
+    font-size: 25px;
+}
+
+h3 {
+    color: #002db3;
+}
+
+li {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia {
+    text-align: left;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
