@@ -15,10 +15,6 @@ body {
     width: 80%;
 }
 
-img {
-    max-width: 100%;
-}
-
 .row {
     display: flex;
     margin-bottom: 20px;
@@ -34,10 +30,6 @@ img {
     width: 16.66%;
 }
 
-.profile-photo {
-    border-radius: 50%;
-    width: 90%;
-}
 
 .col-3 {
     width: 25%;
@@ -83,6 +75,15 @@ img {
     width: 100%
 }
 
+img {
+    max-width: 100%;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 90%;
+}
+
 h1 {
     color: #002db3;
     line-height: 20%;
@@ -121,6 +122,9 @@ li {
     color: black;
 }
 
+.skilllist {
+    font-size: 20px;
+}
 footer {
     display: flex;
     justify-content: space-between;
