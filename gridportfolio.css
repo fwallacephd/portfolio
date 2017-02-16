@@ -10,8 +10,6 @@
 }
 
 body {
-    border: 10px solid #002db3;
-    box-shadow: 10px 10px 5px #888888;
     margin: 50px;
     padding: 20px;
     width: 80%;
@@ -115,7 +113,7 @@ aside {
     font-size: 25px;
 }
 
-h3 {
+h4 {
     color: #002db3;
 }
 
