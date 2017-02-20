@@ -19,8 +19,27 @@ body {
     color: #428bca;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #428bca;
+}
+
 .logo {
     height: 300px;
     max-width: 100%;
 }
 
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 6px solid #428bca;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-right: 5px;
+    max-width: 200px;
+}
+
+.copyright {
+    float: right;
+}
