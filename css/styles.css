@@ -9,11 +9,11 @@
     box-sizing: border-box;
 }
 
-body {
+/*body {
     margin: 50px;
     padding: 20px;
     width: 80%;
-}
+}*/
 
 .nav .navbar-nav {
     color: #428bca;
@@ -21,6 +21,19 @@ body {
 
 .navbar-default .navbar-nav > li > a {
    color: #428bca;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
 }
 
 .logo {
@@ -42,4 +55,11 @@ body {
 
 .copyright {
     float: right;
+}
+
+@media screen and (max-width: 767px) {
+    .project-img {
+        display: block;
+        margin: 0 auto;
+    }
 }
