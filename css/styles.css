@@ -44,6 +44,10 @@
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
+}
+
+.border-bottom {
+  width: 80%;
   border-bottom: 6px solid #428bca;
 }
 
@@ -55,6 +59,12 @@
 
 .copyright {
     float: right;
+}
+
+@media screen and (min-width: 768px) {
+    .project-img {
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 767px) {
