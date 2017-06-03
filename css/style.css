@@ -37,17 +37,21 @@
 }
 
 .logo {
-    height: 400px;
+    height: 200px;
     max-width: 100%;
 }
 
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 0 0 20px;
+}
+
+.name {
+    margin-top: 0px;
 }
 
 .border-bottom {
-  width: 80%;
+  width: 100%;
   border-bottom: 6px solid #428bca;
 }
 
