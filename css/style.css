@@ -77,7 +77,6 @@
 .photo-me {
     height: 200px;
     width: auto;
-    border-radius: 50%;
 }
 
 .about {
@@ -85,6 +84,7 @@
 }
 
 /*CONTENT - SKILLSET*/
+
 #skillset {
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +93,8 @@
 }
 
 .code-img {
-
+    height: 200px;
+    width: auto;
 }
 
 /*FOOTER*/
