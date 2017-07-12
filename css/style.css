@@ -74,7 +74,6 @@
     margin-bottom: auto;
     border-top: 6px solid #2e3192;
     border-bottom: 6px solid #2e3192;
-    background-color: #ccdbe3;
     background-image: url('../images/always-grey.png');
 }
 
@@ -99,20 +98,6 @@
     font-size: 25px;
 }
 
-.hp-link {
-    color: #28abe3;
-    text-decoration: underline;
-    font-size: 25px;
-}
-
-.hp-link-tag-line {
-    color: #2e3192;
-    font-size: 20px;
-}
-
-.hp-link-notes {
-    font-size: 15px;
-}
 
 .writing {
     text-align: center;
@@ -122,6 +107,33 @@
 .education {
     text-align: center;
     font-size: 25px;
+}
+
+.hp-link,
+.doctorwho-link,
+.blog-link,
+.freecodecamp-link,
+.webdevbootcamp-link {
+    color: #28abe3;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.hp-link-tag-line,
+.doctorwho-tag-line,
+.blog-link-tag-line,
+.freecodecamp-link-tag-line,
+.webdevbootcamp-link-tag-line {
+    color: #2e3192;
+    font-size: 20px;
+}
+
+.hp-link-notes,
+.doctorwho-notes,
+.blog-link-notes,
+.freecodecamp-link-notes,
+.webdevbootcamp-link-notes {
+    font-size: 15px;
 }
 
 a:hover {
