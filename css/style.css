@@ -19,11 +19,11 @@
 
 /*NAVBAR*/
 .nav .navbar-nav {
-    color: #428bca;
+    color: #28ABE3;
 }
 
 .navbar-default .navbar-nav > li > a {
-   color: #428bca;
+   color: #28ABE3;
 }
 
 .navbar-default {
@@ -39,22 +39,26 @@
   background-color: transparent;
 }
 
+.navigation {
+    background-color: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
+}
+/*logo*/
 .logo {
+    margin-left: 2%;
     padding-top: 30px;
     padding-bottom: 15px;
     height: 125px;
     max-width: 100%;
+    background-color: #ffffff;
 }
 
 .page-header {
-  padding-bottom: 9px;
-  margin: 0 0 20px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.border-bottom {
-  width: 100%;
-  border-bottom: 6px solid #428bca;
-}
 
 .name {
     margin-top: 0px;
@@ -67,22 +71,65 @@
 }
 
 /*CONTENT - ABOUT ME*/
-
 #about {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    border-top: 6px solid #2e3192;
+    border-bottom: 6px solid #2e3192;
+    background-color: #bad4e3;
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+
 }
+
 .photo-me {
     height: 200px;
     width: auto;
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .about {
     font-size: 18px;
 }
+
+/*PROJECTS*/
+.projects {
+    border-bottom: 6px solid #2e3192;
+    background-color: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
+
+}
+
+.webdev {
+    text-align: center;
+    font-size: 25px;
+}
+
+.writing {
+    text-align: center;
+    font-size: 25px;
+}
+
+.education {
+    text-align: center;
+    font-size: 25px;
+}
+
+i {
+
+}
+
+.fa fa-laptop {
+
+}
+
+.fa fa-pencil-square-o,
+.fa fa-graduation-cap {
+    width: 50px;
+}
+
 
 /*CONTENT - SKILLSET*/
 
