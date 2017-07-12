@@ -39,10 +39,6 @@
   background-color: transparent;
 }
 
-.navigation {
-    background-color: #ffffff;
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
-}
 /*logo*/
 .logo {
     margin-left: 2%;
@@ -78,9 +74,8 @@
     margin-bottom: auto;
     border-top: 6px solid #2e3192;
     border-bottom: 6px solid #2e3192;
-    background-color: #bad4e3;
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-
+    background-color: #ccdbe3;
+    background-image: url(https://www.transparenttextures.com/patterns/always-grey.png);
 }
 
 .photo-me {
@@ -97,14 +92,26 @@
 /*PROJECTS*/
 .projects {
     border-bottom: 6px solid #2e3192;
-    background-color: #ffffff;
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
-
 }
 
 .webdev {
     text-align: center;
     font-size: 25px;
+}
+
+.hp-link {
+    color: #28abe3;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.hp-link-tag-line {
+    color: #2e3192
+    font-size: 20px;
+}
+
+.hp-link-notes {
+    font-size: 15px;
 }
 
 .writing {
@@ -115,6 +122,10 @@
 .education {
     text-align: center;
     font-size: 25px;
+}
+
+a:hover {
+    color: black;
 }
 
 i {
@@ -146,6 +157,9 @@ i {
 }
 
 /*FOOTER*/
+.footer {
+
+}
 .copyright {
     float: right;
 }
