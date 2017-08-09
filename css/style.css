@@ -169,14 +169,15 @@ a:hover {
 }
 
 .devicon-html5-plain-wordmark,
-.devicon-css3-plain,
+.devicon-css3-plain-wordmark,
 .devicon-bootstrap-plain-wordmark,
 .devicon-javascript-plain,
 .devicon-jquery-plain-wordmark,
 .devicon-github-plain-wordmark {
     color: #28abe3;
     text-align: center;
-    max-width: 100%;
+    font-size: 45px;
+
 }
 
 
