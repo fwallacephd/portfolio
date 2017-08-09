@@ -176,7 +176,7 @@ a:hover {
 .devicon-github-plain-wordmark {
     color: #28abe3;
     text-align: center;
-    font-size: 45px;
+    font-size: 65px;
 
 }
 
@@ -199,6 +199,8 @@ a:hover {
 .fa-linkedin-square {
     color: #28abe3;
     text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /*FOOTER*/
