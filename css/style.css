@@ -85,10 +85,11 @@
     margin-top: 7px;
     width:75%;
     border-radius: 50%;
+    border-color: white;
 }
 
 .about {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*EXPERIENCE*/
@@ -107,6 +108,18 @@
     font-size: 25px;
 }
 
+.fa-desktop,
+.fa-file-code-o,
+.fa-pencil-square-o,
+.fa-file-powerpoint-o {
+    color: #2e3192;
+}
+
+.webdev-title,
+.applications,
+.writing {
+    color: #2e3192;
+}
 
 .writing {
     text-align: center;
@@ -143,6 +156,7 @@
 .virtual-pet-link-notes,
 .random-quote-link-notes {
     font-size: 15px;
+    color: black;
 }
 
 a:hover {
