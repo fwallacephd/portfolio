@@ -187,6 +187,8 @@ a:hover {
 .devicon-bootstrap-plain-wordmark,
 .devicon-javascript-plain,
 .devicon-jquery-plain-wordmark,
+.devicon-python-plain-wordmark,
+.devicon-slack-plain,
 .devicon-github-plain-wordmark {
     color: #28abe3;
     text-align: center;
@@ -210,6 +212,7 @@ a:hover {
 .fa-github-square,
 .fa-twitter-square,
 .fa-envelope,
+.fa-rss-square,
 .fa-linkedin-square {
     color: #28abe3;
     text-align: center;
