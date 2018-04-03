@@ -133,8 +133,10 @@
 
 .hp-link,
 .doctorwho-link,
+.herogallery-link,
 .blog-link,
 .virtual-pet-link,
+.translator-link,
 .random-quote-link {
     color: #28abe3;
     text-decoration: underline;
@@ -143,8 +145,10 @@
 
 .hp-link-tag-line,
 .doctorwho-link-tag-line,
+.herogallery-link-tag-line,
 .blog-link-tag-line,
 .virtual-pet-link-tag-line,
+.translator-link-tag-line,
 .random-quote-link-tag-line {
     color: #2e3192;
     font-size: 20px;
@@ -152,11 +156,32 @@
 
 .hp-link-notes,
 .doctorwho-notes,
+.herogallery-notes,
 .blog-link-notes,
 .virtual-pet-link-notes,
+.tanslator-link-notes,
 .random-quote-link-notes {
     font-size: 15px;
     color: black;
+}
+
+.virtual-pet-image,
+.translator-image,
+.random-quote {
+    width: 95%;
+    margin-bottom: 2px;
+}
+
+.hp-site-image,
+.who-site-image,
+.hero-gallery-image {
+    width: 95%;
+    margin-bottom: 2px;
+}
+
+.blog-site {
+    width: 95%;
+    margin-bottom: 2px;
 }
 
 a:hover {
